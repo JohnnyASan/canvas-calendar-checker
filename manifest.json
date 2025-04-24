@@ -1,6 +1,6 @@
 {
     "name": "Canvas Calendar Checker",
-    "description": "This extension enables you to check off items on the calendar page of Canvas by instructure. ",
+    "description": "This extension enables you to check off items on the calendar page of Canvas by instructure. In Canvas, the calendar tab is a powerful tool to manage workload and anxiety, but there are times when items have a due date, but no way to mark as complete. For me, it really bothered me so I decided to make this extension and I plan to develop it further as well.  ",
     "version": "1.0",
     "manifest_version": 3,
     "action": {
