@@ -1,0 +1,17 @@
+{
+    "name": "Canvas Calendar Checker",
+    "description": "This extension enables you to check off items on the calendar page of Canvas by instructure. ",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://*.instructure.com/*"],
+            "js": ["scripts.js"],
+            "run_at": "document_idle"
+        }
+    ]
+  }
